@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://www.funmobile.com/landingAPI/schemas">
+  <soapenv:Header>
+<wsse:Security soapenv:mustUnderstand="1" 
+ xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+ <wsse:UsernameToken>
+                <wsse:Username>funmobile</wsse:Username>
+                <wsse:Password>123456</wsse:Password>
+            </wsse:UsernameToken>
+</wsse:Security>
+ </soapenv:Header>
+   <soapenv:Body>
+      <sch:ActivationRequest>
+         <sch:activeInfo userId="1232586943" msisdn="123258694" campaign="1" password="?" activationKey="42213183787587ce581dbfb2ade366b88bd58295100"/>
+      </sch:ActivationRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
