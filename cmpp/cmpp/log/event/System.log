@@ -1,0 +1,636 @@
+时间：090226155440 事件消息:  ------通信系统启动－－－－
+时间：090226155607 事件消息:  ------通信系统启动－－－－
+时间：090226155608 事件消息:  ------通信控制系统启动－－－－－－
+时间：090226155608140消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226155608140消息：ERROR Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.sendinfo' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.mt.MT_Send.initSetI(MT_Send.java:64)
+	at com.hoten.communicate.mt.MT_Send.<init>(MT_Send.java:50)
+	at com.hoten.communicate.MainEntity.startSystem(MainEntity.java:66)
+	at com.hoten.communicate.MainEntity.main(MainEntity.java:28)
+时间：090226155608 事件消息:  ------江苏通信MT_Send启动－－－－－－
+时间：090226155608 事件消息:  ------江苏通信MT_Get_YD启动－－－－－－
+时间：090226155608 事件消息:  ------MT_Get_JF启动－－－－－－
+时间：090226155608 事件消息:  ------MO_Save启动－－－－－－
+时间：090226155631 事件消息:  ------江苏通信MO_Get启动－－－－－－
+时间：090226155638140消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226155708140消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226155738140消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226155821 事件消息:  ------通信系统启动－－－－
+时间：090226155821 事件消息:  ------通信控制系统启动－－－－－－
+时间：090226155821953消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226155821984消息：ERROR Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.sendinfo' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.mt.MT_Send.initSetI(MT_Send.java:64)
+	at com.hoten.communicate.mt.MT_Send.<init>(MT_Send.java:50)
+	at com.hoten.communicate.MainEntity.startSystem(MainEntity.java:66)
+	at com.hoten.communicate.MainEntity.main(MainEntity.java:28)
+时间：090226155821 事件消息:  ------江苏通信MT_Send启动－－－－－－
+时间：090226155821 事件消息:  ------江苏通信MT_Get_YD启动－－－－－－
+时间：090226155822 事件消息:  ------MO_Save启动－－－－－－
+时间：090226155822 事件消息:  ------MT_Get_JF启动－－－－－－
+时间：090226155845 事件消息:  ------江苏通信MO_Get启动－－－－－－
+时间：090226155948 事件消息:  ------通信系统启动－－－－
+时间：090226160009 事件消息:  ------通信控制系统启动－－－－－－
+时间：090226160009250消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160024265消息：ERROR Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.sendinfo' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.mt.MT_Send.initSetI(MT_Send.java:64)
+	at com.hoten.communicate.mt.MT_Send.<init>(MT_Send.java:50)
+	at com.hoten.communicate.MainEntity.startSystem(MainEntity.java:66)
+	at com.hoten.communicate.MainEntity.main(MainEntity.java:28)
+时间：090226160025 事件消息:  ------江苏通信MT_Send启动－－－－－－
+时间：090226160039265消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160040 事件消息:  ------江苏通信MT_Get_YD启动－－－－－－
+时间：090226160046 事件消息:  ------MT_Get_JF启动－－－－－－
+时间：090226160051 事件消息:  ------MO_Save启动－－－－－－
+时间：090226160109265消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160131 事件消息:  ------江苏通信MO_Get启动－－－－－－
+时间：090226160139265消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160209265消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160239265消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160309265消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160339 事件消息:  ------通信系统启动－－－－
+时间：090226160348 事件消息:  ------通信控制系统启动－－－－－－
+时间：090226160348343消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160349765消息：ERROR Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.sendinfo' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.mt.MT_Send.initSetI(MT_Send.java:64)
+	at com.hoten.communicate.mt.MT_Send.<init>(MT_Send.java:50)
+	at com.hoten.communicate.MainEntity.startSystem(MainEntity.java:66)
+	at com.hoten.communicate.MainEntity.main(MainEntity.java:28)
+时间：090226160350 事件消息:  ------江苏通信MT_Send启动－－－－－－
+时间：090226160351 事件消息:  ------江苏通信MT_Get_YD启动－－－－－－
+时间：090226160352 事件消息:  ------MT_Get_JF启动－－－－－－
+时间：090226160352 事件消息:  ------MO_Save启动－－－－－－
+时间：090226160418359消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160448359消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160518359消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160541 事件消息:  ------江苏通信MO_Get启动－－－－－－
+时间：090226160548359消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160625 事件消息:  ------通信系统启动－－－－
+时间：090226160629 事件消息:  ------通信控制系统启动－－－－－－
+时间：090226160629984消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160630015消息：ERROR Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.sendinfo' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.mt.MT_Send.initSetI(MT_Send.java:64)
+	at com.hoten.communicate.mt.MT_Send.<init>(MT_Send.java:50)
+	at com.hoten.communicate.MainEntity.startSystem(MainEntity.java:66)
+	at com.hoten.communicate.MainEntity.main(MainEntity.java:28)
+时间：090226160630 事件消息:  ------江苏通信MT_Send启动－－－－－－
+时间：090226160630 事件消息:  ------江苏通信MT_Get_YD启动－－－－－－
+时间：090226160630 事件消息:  ------MO_Save启动－－－－－－
+时间：090226160630 事件消息:  ------MT_Get_JF启动－－－－－－
+时间：090226160648 事件消息:  ------通信系统启动－－－－
+时间：090226160746 事件消息:  ------通信控制系统启动－－－－－－
+时间：090226160746203消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160749125消息：ERROR Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.sendinfo' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.mt.MT_Send.initSetI(MT_Send.java:64)
+	at com.hoten.communicate.mt.MT_Send.<init>(MT_Send.java:50)
+	at com.hoten.communicate.MainEntity.startSystem(MainEntity.java:66)
+	at com.hoten.communicate.MainEntity.main(MainEntity.java:28)
+时间：090226160750 事件消息:  ------江苏通信MT_Send启动－－－－－－
+时间：090226160751 事件消息:  ------江苏通信MT_Get_YD启动－－－－－－
+时间：090226160752 事件消息:  ------MT_Get_JF启动－－－－－－
+时间：090226160755 事件消息:  ------MO_Save启动－－－－－－
+时间：090226160816218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160846218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160916218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226160927 事件消息:  ------江苏通信MO_Get启动－－－－－－
+时间：090226160946218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226161016218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226161046218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226161116218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226161146218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226161216218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226161246218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226161316218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226161346218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226161416218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226161446218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226161516218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226161546218消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
+时间：090226161616234消息： Exception:
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'cmpp.ws_quitcontrol' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3170)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3099)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1169)
+	at com.hoten.util.DBAccess.select(DBAccess.java:273)
+	at com.hoten.util.DBAccess.select(DBAccess.java:212)
+	at com.hoten.communicate.quit.Syste_Quit.getFlag(Syste_Quit.java:86)
+	at com.hoten.communicate.quit.Syste_Quit.run(Syste_Quit.java:44)
+	at java.lang.Thread.run(Unknown Source)
