@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project name="ID" soapui-version="2.0.2" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="ProjectSettings@projectRoot">C:\Documents and Settings\Administrator\My Documents</con:setting></con:settings><con:interface name="RegistrationRequestBinding" bindingName="{http://www.funmobile.com/landingAPI/definitions}RegistrationRequestBinding" soapVersion="1_1" definition="http://iddev.chatandclick.com/ws/registrationService/registration.wsdl"><con:settings/><con:endpoints><con:endpoint>http://iddev.chatandclick.com:80/ws/registrationService</con:endpoint></con:endpoints><con:operation isOneWay="false" action="" name="Activation" bindingOperationName="Activation" inputName="ActivationRequest" outputName="ActivationResponse" receivesAttachments="false" sendsAttachments="false"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://iddev.chatandclick.com:80/ws/registrationService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://www.funmobile.com/landingAPI/schemas">
+   <soapenv:Header>
+<wsse:Security soapenv:mustUnderstand="1" 
+ xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+ <wsse:UsernameToken>
+                <wsse:Username>funmobile</wsse:Username>
+                <wsse:Password>123456</wsse:Password>
+            </wsse:UsernameToken>
+</wsse:Security>
+ </soapenv:Header>
+   <soapenv:Body>
+      <sch:ActivationRequest>
+         <sch:activeInfo userId="338" msisdn="1232584586" campaign="1" password="?" activationKey="7dc76a6ca3634ca460a22f6e89b0ea00ee8a0600100"/>
+      </sch:ActivationRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request></con:call></con:operation><con:operation isOneWay="false" action="" name="Registration" bindingOperationName="Registration" inputName="RegistrationRequest" outputName="RegistrationResponse" receivesAttachments="false" sendsAttachments="false"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://iddev.chatandclick.com:80/ws/registrationService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://www.funmobile.com/landingAPI/schemas">
+   <soapenv:Header>
+<wsse:Security soapenv:mustUnderstand="1" 
+ xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+ <wsse:UsernameToken>
+                <wsse:Username>funmobile</wsse:Username>
+                <wsse:Password>123456</wsse:Password>
+            </wsse:UsernameToken>
+</wsse:Security>
+ </soapenv:Header>
+   <soapenv:Body>
+      <sch:RegistrationRequest>
+         <sch:regInfo msisdn="1232587417" operator="6203" campaign="1" ipAddr="127.0.0.1" affiliateId="1" callbackURL="http://id.chatandclick.com" affiliateSubId="N/A" languageId="id_ID"/>
+      </sch:RegistrationRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request></con:call></con:operation><con:definitionCache rootPart="http://iddev.chatandclick.com/ws/registrationService/registration.wsdl" type="TEXT"><con:part><con:url>http://iddev.chatandclick.com/ws/registrationService/registration.wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://www.funmobile.com/landingAPI/definitions" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:schema="http://www.funmobile.com/landingAPI/schemas" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.funmobile.com/landingAPI/definitions">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.funmobile.com/landingAPI/schemas" xmlns:fm="http://www.funmobile.com/landingAPI/schemas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="RegistrationRequest">
+        <xs:complexType>
+          <xs:all>
+            <xs:element name="regInfo">
+              <xs:complexType>
+                <xs:attribute name="msisdn" type="xs:string"/>
+                <xs:attribute name="operator" type="xs:integer" use="optional"/>
+                <xs:attribute name="campaign" type="xs:integer"/>
+                <xs:attribute name="ipAddr" type="xs:string"/>
+                <xs:attribute name="affiliateId" type="xs:integer"/>
+                <xs:attribute name="callbackURL" type="xs:string"/>
+                <xs:attribute name="affiliateSubId" type="xs:string" use="optional"/>
+                <xs:attribute name="languageId" type="xs:string" use="optional"/>
+              </xs:complexType>
+            </xs:element>
+          </xs:all>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RegistrationResponse">
+        <xs:complexType>
+          <xs:all>
+            <xs:element name="regResult">
+              <xs:complexType>
+                <xs:all>
+                  <xs:element name="result" type="fm:Result"/>
+                  <xs:element name="nextPage" type="fm:NextPage"/>
+                  <xs:element name="user" type="fm:User"/>
+                </xs:all>
+              </xs:complexType>
+            </xs:element>
+          </xs:all>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ActivationRequest">
+        <xs:complexType>
+          <xs:all>
+            <xs:element name="activeInfo">
+              <xs:complexType>
+                <xs:attribute name="userId" type="xs:integer"/>
+                <xs:attribute name="msisdn" type="xs:string"/>
+                <xs:attribute name="campaign" type="xs:integer"/>
+                <xs:attribute name="password" type="xs:string"/>
+                <xs:attribute name="activationKey" type="xs:string"/>
+              </xs:complexType>
+            </xs:element>
+          </xs:all>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ActivationResponse">
+        <xs:complexType>
+          <xs:all>
+            <xs:element name="activeResult">
+              <xs:complexType>
+                <xs:all>
+                  <xs:element name="result" type="fm:Result"/>
+                  <xs:element name="callback" type="fm:CallBack"/>
+                </xs:all>
+              </xs:complexType>
+            </xs:element>
+          </xs:all>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="Result">
+        <xs:attribute name="resultCode" type="xs:integer"/>
+      </xs:complexType>
+      <xs:complexType name="NextPage">
+        <xs:attribute name="nextPageCode" type="xs:integer"/>
+      </xs:complexType>
+      <xs:complexType name="User">
+        <xs:attribute name="userId" type="xs:integer"/>
+        <xs:attribute name="msisdn" type="xs:string"/>
+        <xs:attribute name="operator" type="xs:integer"/>
+        <xs:attribute name="activationKey" type="xs:string"/>
+      </xs:complexType>
+      <xs:complexType name="CallBack">
+        <xs:attribute name="key" type="xs:string"/>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="ActivationRequest">
+    <wsdl:part element="schema:ActivationRequest" name="ActivationRequest"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="RegistrationRequest">
+    <wsdl:part element="schema:RegistrationRequest" name="RegistrationRequest"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="RegistrationResponse">
+    <wsdl:part element="schema:RegistrationResponse" name="RegistrationResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ActivationResponse">
+    <wsdl:part element="schema:ActivationResponse" name="ActivationResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="RegistrationRequest">
+    <wsdl:operation name="Activation">
+      <wsdl:input message="tns:ActivationRequest" name="ActivationRequest"></wsdl:input>
+      <wsdl:output message="tns:ActivationResponse" name="ActivationResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Registration">
+      <wsdl:input message="tns:RegistrationRequest" name="RegistrationRequest"></wsdl:input>
+      <wsdl:output message="tns:RegistrationResponse" name="RegistrationResponse"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RegistrationRequestBinding" type="tns:RegistrationRequest">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="Activation">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="ActivationRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ActivationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Registration">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="RegistrationRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="RegistrationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RegistrationRequestService">
+    <wsdl:port binding="tns:RegistrationRequestBinding" name="RegistrationRequestPort">
+      <soap:address location="http://iddev.chatandclick.com:80/ws/registrationService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache></con:interface><con:properties/><con:wssContainer/></con:soapui-project>
