@@ -9,8 +9,15 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.Socket;
+import java.net.UnknownHostException;
+
 import javax.swing.JFrame;
 import javax.swing.JTabbedPane;
+
+import org.jivesoftware.smack.ConnectionConfiguration;
+import org.jivesoftware.smack.XMPPConnection;
+import org.jivesoftware.smack.packet.Message;
+
 import com.huawei.insa2.comm.cmpp.message.CMPPActiveMessage;
 import com.huawei.insa2.comm.cmpp.message.CMPPActiveRepMessage;
 import com.huawei.insa2.comm.cmpp.message.CMPPCancelRepMessage;
@@ -137,7 +144,13 @@ public class SMSC extends JFrame implements ActionListener {
 						+ DateUtil.format(new java.sql.Timestamp(System
 								.currentTimeMillis()), "yyyy-MM-dd hh:mm:ss")
 						+ " : " + message.toString());
-		message.getMsgContent();
+		System.out.println(new String(message.getMsgContent()));
+		try {
+			//Socket socket = new Socket("localhost",5222);
+			sendToOpenfire(new String(message.getMsgContent()));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	public void CMPP30SubmitResponseListener(CMPP30SubmitRepMessage message) {
@@ -229,7 +242,38 @@ public class SMSC extends JFrame implements ActionListener {
 		}
 
 	}
-
+	public boolean sendToOpenfire(String msg_body) throws Exception{
+		//SessionManager sessionManager = SparkManager.getSessionManager();
+		int port = 5222;
+		String serverName = "localhost";
+		//LocalPreferences localPref = SettingsManager.getLocalPreferences();
+		ConnectionConfiguration config = new ConnectionConfiguration(serverName);
+		config.setReconnectionAllowed(true);
+        config.setRosterLoadedAtLogin(true);
+        config.setSendPresence(false);
+        XMPPConnection connection = new XMPPConnection(config);
+        connection.connect();
+        //String resource = localPref.getResource();
+       // if (!ModelUtil.hasLength(resource)) {
+        //    resource = "spark";
+       // }                   
+        //System.out.println("connection " + connection);
+        connection.login("jason", "123456", "spark");
+        //sessionManager.setServerAddress(connection.getServiceName());
+        //sessionManager.initializeSession(connection, "jason", "123456");
+        //sessionManager.setJID(connection.getUser());
+        //connection.addConnectionListener(SparkManager.getSessionManager());
+        
+        //System.out.println("connection status = "+SparkManager.getConnection().isConnected());
+        Message m = new Message();
+    	m.setThread("Thread-101");
+    	m.setBody(msg_body);
+    	m.setFrom("jason@cpc012/spark");
+    	m.setTo("test@cpc012");
+    	m.setType(Message.Type.chat);
+    	connection.sendPacket(m);
+        return true;
+	}
 	public static void main(String[] args) {
 		new SMSC("二维短信息中心");
 	}
