@@ -21,16 +21,16 @@ public class MyDemo {
 	public static void main(String[] args) throws IOException {
 		InetAddress localAddress = InetAddress.getByName("127.0.0.1");
 		InetAddress serverAddress = InetAddress.getByName("127.0.0.1");
-		Socket socket = new Socket(serverAddress, 8801, localAddress, 8898);
+		Socket socket = new Socket(serverAddress, 7890, localAddress, 8898);
 		CMPPConnectMessage request = new CMPPConnectMessage("901234", 1,
 				"123456", new Date());
 		SGIPBindMessage request_1 = new SGIPBindMessage(1,"opennet","opennet");
 		OutputStream out = socket.getOutputStream();
 		InputStream in = socket.getInputStream();
-		out.write(request_1.getBytes());
-		//CMPP30ConnectRepMessage m = (CMPP30ConnectRepMessage)new CMPP30Reader(in).read();
-		SGIPBindRepMessage m = (SGIPBindRepMessage) new SGIPReader(in).read();
-		System.out.println("results="+m.getResult()+" sequenceId="+m.getSequenceId());
+		out.write(request.getBytes());
+		CMPP30ConnectRepMessage m = (CMPP30ConnectRepMessage)new CMPP30Reader(in).read();
+		//SGIPBindRepMessage m = (SGIPBindRepMessage) new SGIPReader(in).read();
+		System.out.println("results="+m.getStatus()+" sequenceId="+m.getSequenceId());
 		
 	}
 

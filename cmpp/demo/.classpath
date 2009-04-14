@@ -2,8 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="D:/common_lib/lib/jfreechart-1.0.6/lib/jcommon-1.0.10.jar"/>
-	<classpathentry kind="lib" path="D:/common_lib/lib/jfreechart-1.0.6/lib/servlet.jar"/>
-	<classpathentry kind="lib" path="D:/common_lib/lib/jfreechart-1.0.6/lib/junit.jar"/>
+	<classpathentry kind="lib" path="/spark/build/lib/dist/smack.jar"/>
+	<classpathentry kind="lib" path="/spark/build/lib/dist/smackx.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
