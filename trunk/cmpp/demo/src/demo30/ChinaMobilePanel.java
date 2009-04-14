@@ -15,6 +15,10 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
+import org.jivesoftware.smack.ConnectionConfiguration;
+import org.jivesoftware.smack.XMPPConnection;
+import org.jivesoftware.smack.XMPPException;
+
 import com.huawei.insa2.comm.cmpp.message.CMPPActiveMessage;
 import com.huawei.insa2.comm.cmpp.message.CMPPConnectMessage;
 import com.huawei.insa2.comm.cmpp.message.CMPPMessage;
@@ -24,7 +28,7 @@ import com.huawei.insa2.comm.cmpp30.message.CMPP30SubmitMessage;
 public class ChinaMobilePanel extends JPanel implements ActionListener {
 	private JLabel enterpriseId_label;
 	private JTextField enterpriseId_text;
-	
+	private static XMPPConnection connection ;
 	private JLabel enterprisePasswd_label;
 	private JTextField enterprisePasswd_text;
 	
@@ -141,9 +145,11 @@ public class ChinaMobilePanel extends JPanel implements ActionListener {
 			String enterprisePasswd = enterprisePasswd_text.getText();
 			int version = 1;
 			if (!enterpriseId.equals("") && !enterprisePasswd.equals("")) {
+				loginToOpenfire(enterpriseId,enterprisePasswd);
 				CMPPConnectMessage request = new CMPPConnectMessage(
 						enterpriseId, version, enterprisePasswd, new Date());
 				write(request);
+				
 			}
 		}else if(ae.getSource()==clear_button){
 			backMessage_text.setText("");
@@ -163,6 +169,21 @@ public class ChinaMobilePanel extends JPanel implements ActionListener {
 			write(request);
 		}
 	}
+	public void loginToOpenfire(String userName,String password){
+		String serverName = "localhost";
+		ConnectionConfiguration config = new ConnectionConfiguration(serverName);
+		config.setReconnectionAllowed(true);
+        config.setRosterLoadedAtLogin(true);
+        config.setSendPresence(false);
+        connection = new XMPPConnection(config);
+        try {
+			connection.connect();
+			connection.login(userName, password, "spark");
+		} catch (XMPPException e) {
+			e.printStackTrace();
+		}
+        
+	}
 	public void write(CMPPMessage request){
 		try {
 			OutputStream out = socket.getOutputStream();
@@ -171,6 +192,9 @@ public class ChinaMobilePanel extends JPanel implements ActionListener {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	public XMPPConnection getXMPPConnection(){
+		return connection ;
 	}
 	public JTextArea getBackMessageTextArea(){
 		
