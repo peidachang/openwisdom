@@ -16,6 +16,7 @@ import javax.swing.JTabbedPane;
 
 import org.jivesoftware.smack.ConnectionConfiguration;
 import org.jivesoftware.smack.XMPPConnection;
+import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.packet.Message;
 
 import com.huawei.insa2.comm.cmpp.message.CMPPActiveMessage;
@@ -35,7 +36,7 @@ public class SMSC extends JFrame implements ActionListener {
 	private JTabbedPane tabbedPane;
 	private ChinaMobilePanel chinaMobilePanel;
 	private ChinaUnicomPanel chinaUnicomPanel;
-
+	
 	public SMSC(String title) {
 		super(title);
 		init();
@@ -69,6 +70,7 @@ public class SMSC extends JFrame implements ActionListener {
 	public void actionPerformed(ActionEvent ae) {
 
 	}
+	
 
 	/**
 	 * Read CMPP Response Message
@@ -243,35 +245,13 @@ public class SMSC extends JFrame implements ActionListener {
 
 	}
 	public boolean sendToOpenfire(String msg_body) throws Exception{
-		//SessionManager sessionManager = SparkManager.getSessionManager();
-		int port = 5222;
-		String serverName = "localhost";
-		//LocalPreferences localPref = SettingsManager.getLocalPreferences();
-		ConnectionConfiguration config = new ConnectionConfiguration(serverName);
-		config.setReconnectionAllowed(true);
-        config.setRosterLoadedAtLogin(true);
-        config.setSendPresence(false);
-        XMPPConnection connection = new XMPPConnection(config);
-        connection.connect();
-        //String resource = localPref.getResource();
-       // if (!ModelUtil.hasLength(resource)) {
-        //    resource = "spark";
-       // }                   
-        //System.out.println("connection " + connection);
-        connection.login("jason", "123456", "spark");
-        //sessionManager.setServerAddress(connection.getServiceName());
-        //sessionManager.initializeSession(connection, "jason", "123456");
-        //sessionManager.setJID(connection.getUser());
-        //connection.addConnectionListener(SparkManager.getSessionManager());
-        
-        //System.out.println("connection status = "+SparkManager.getConnection().isConnected());
         Message m = new Message();
     	m.setThread("Thread-101");
     	m.setBody(msg_body);
     	m.setFrom("jason@cpc012/spark");
     	m.setTo("test@cpc012");
     	m.setType(Message.Type.chat);
-    	connection.sendPacket(m);
+    	chinaMobilePanel.getXMPPConnection().sendPacket(m);
         return true;
 	}
 	public static void main(String[] args) {
