@@ -12,7 +12,7 @@
 <a:Code>wisdomcms</a:Code>
 <a:CreationDate>1244445191</a:CreationDate>
 <a:Creator>User</a:Creator>
-<a:ModificationDate>1244449889</a:ModificationDate>
+<a:ModificationDate>1244449991</a:ModificationDate>
 <a:Modifier>User</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -45,7 +45,7 @@ RevDtbsPerm=No
 RevViewIndx=Yes
 RevJidxOpts=Yes
 RevCaseSensitive=No
-GenScriptName=crebas
+GenScriptName=tables.sql
 GenScriptName0=
 GenScriptName1=
 GenScriptName2=
@@ -56,7 +56,7 @@ GenScriptName6=
 GenScriptName7=
 GenScriptName8=
 GenScriptName9=
-GenPathName=
+GenPathName=C:\Documents and Settings\User\桌面\
 GenSingleFile=Yes
 GenTrgScriptName=cretrg
 GenTrgScriptName0=
@@ -99,50 +99,50 @@ GenDataOwner=No
 GenDataProfNumb=
 GenDataProfChar=
 GenDataProfDate=
-GenTspcCrea=Yes
-GenTspcDrop=Yes
+GenTspcCrea=No
+GenTspcDrop=No
 GenTspcHead=Yes
 GenTspcFoot=Yes
-GenTspcCmmt=Yes
-GenStorCrea=Yes
-GenStorDrop=Yes
-GenStorCmmt=Yes
-GenUddtCrea=Yes
-GenUddtDval=Yes
-GenUddtChck=Yes
-GenUddtCmmt=Yes
-GenUddtDrop=Yes
+GenTspcCmmt=No
+GenStorCrea=No
+GenStorDrop=No
+GenStorCmmt=No
+GenUddtCrea=No
+GenUddtDval=No
+GenUddtChck=No
+GenUddtCmmt=No
+GenUddtDrop=No
 GenDeftCrea=Yes
 GenDeftCmmt=Yes
 GenDeftDrop=Yes
-GenClssCrea=Yes
-GenClssHead=Yes
-GenClssFoot=Yes
-GenClssCmmt=Yes
-GenClssDrop=Yes
-GenClssInst=Yes
-GenClssSupp=Yes
+GenClssCrea=No
+GenClssHead=No
+GenClssFoot=No
+GenClssCmmt=No
+GenClssDrop=No
+GenClssInst=No
+GenClssSupp=No
 GenClssPerm=No
 GenDtbsCrea=Yes
-GenDtbsOpts=Yes
+GenDtbsOpts=No
 GenDtbsHead=Yes
 GenDtbsFoot=Yes
 GenDtbsOpen=Yes
-GenDtbsClose=Yes
+GenDtbsClose=No
 GenDtbsDrop=Yes
 GenDtbsPerm=No
-GenUserCrea=Yes
-GenUserGrant=Yes
-GenUserDrop=Yes
+GenUserCrea=No
+GenUserGrant=No
+GenUserDrop=No
 GenUserPriv=No
-GenGrpeCrea=Yes
-GenGrpeDrop=Yes
-GenGrpePriv=No
-GenRoleCrea=Yes
-GenRoleDrop=Yes
+GenGrpeCrea=No
+GenGrpeDrop=No
+GenGrpePriv=Yes
+GenRoleCrea=No
+GenRoleDrop=No
 GenRolePriv=No
-GenSynmCrea=Yes
-GenSynmDrop=Yes
+GenSynmCrea=No
+GenSynmDrop=No
 GenSynmTabl=Yes
 GenSynmView=Yes
 GenSynmProc=Yes
@@ -155,25 +155,25 @@ GenTablCntr=No
 GenTablOpts=Yes
 GenTablHead=Yes
 GenTablFoot=Yes
-GenTablCmmt=Yes
+GenTablCmmt=No
 GenTablDrop=Yes
 GenTablPerm=No
-GenColnUddt=Yes
+GenColnUddt=No
 GenColnDval=Yes
 GenColnChck=Yes
 GenColnCntr=No
 GenColnOpts=Yes
-GenColnCmmt=Yes
+GenColnCmmt=No
 GenPkeyCrea=Yes
 GenPkeyCntr=No
-GenPkeyOpts=Yes
+GenPkeyOpts=No
 GenPkeyDrop=Yes
-GenPkeyCmmt=Yes
+GenPkeyCmmt=No
 GenAkeyCrea=Yes
 GenAkeyCntr=No
-GenAkeyOpts=Yes
-GenAkeyDrop=Yes
-GenAkeyCmmt=Yes
+GenAkeyOpts=No
+GenAkeyDrop=No
+GenAkeyCmmt=No
 GenRefrCrea=Yes
 GenRefrCntr=Yes
 GenRefrIdcl=Yes
@@ -185,51 +185,51 @@ GenRefrIDDR=Yes
 GenRefrIDDC=Yes
 GenRefrIDDN=Yes
 GenRefrIDDD=Yes
-GenRefrDrop=Yes
-GenRefrCmmt=Yes
+GenRefrDrop=No
+GenRefrCmmt=No
 GenIndxCrea=Yes
-GenIndxPkey=Yes
+GenIndxPkey=No
 GenIndxFkey=Yes
-GenIndxAkey=Yes
+GenIndxAkey=No
 GenIndxClus=Yes
 GenIndxOthr=Yes
 GenIndxOpts=Yes
-GenIndxCmmt=Yes
+GenIndxCmmt=No
 GenIndxDrop=Yes
-GenViewCrea=Yes
+GenViewCrea=No
 GenViewHead=Yes
 GenViewFoot=Yes
-GenViewCmmt=Yes
-GenViewDrop=Yes
+GenViewCmmt=No
+GenViewDrop=No
 GenViewPerm=No
-GenViewOpts=Yes
-GenJidxCrea=Yes
-GenJidxOpts=Yes
-GenJidxHead=Yes
-GenJidxFoot=Yes
-GenJidxDrop=Yes
-GenJidxCmmt=Yes
-GenSqncCrea=Yes
-GenSqncDrop=Yes
-GenSqncCmmt=Yes
+GenViewOpts=No
+GenJidxCrea=No
+GenJidxOpts=No
+GenJidxHead=No
+GenJidxFoot=No
+GenJidxDrop=No
+GenJidxCmmt=No
+GenSqncCrea=No
+GenSqncDrop=No
+GenSqncCmmt=No
 GenSqncPerm=No
-GenTrgrCrea=Yes
-GenTrgrDrop=Yes
-GenTrgrCmmt=Yes
-GenTrgrFIns=Yes
-GenTrgrFUpd=Yes
-GenTrgrFDel=Yes
-GenTrgrFOth=Yes
+GenTrgrCrea=No
+GenTrgrDrop=No
+GenTrgrCmmt=No
+GenTrgrFIns=No
+GenTrgrFUpd=No
+GenTrgrFDel=No
+GenTrgrFOth=No
 GenProcCrea=Yes
 GenProcDrop=Yes
 GenProcHead=Yes
 GenProcFoot=Yes
-GenProcCmmt=Yes
+GenProcCmmt=No
 GenProcPerm=No
 GenScriptTitle=Yes
 GenScriptNamLabl=No
-GenScriptQDtbs=Yes
-GenScriptQOwnr=Yes
+GenScriptQDtbs=No
+GenScriptQOwnr=No
 GenScriptCase=0
 GenScriptEncoding=ANSI
 GenScriptNAcct=No
@@ -245,9 +245,9 @@ GenTrgrStdMsg=Yes
 GenTrgrMsgTab=
 GenTrgrMsgNo=
 GenTrgrMsgTxt=
-GenRuleCrea=Yes
-GenRuleDrop=Yes
-GenRuleCmmt=Yes
+GenRuleCrea=No
+GenRuleDrop=No
+GenRuleCmmt=No
 GenSynmPathName=
 GenSynmSinglefile=Yes
 GenSynmScriptName=synonym
@@ -280,12 +280,12 @@ GenPrivScriptName9=
 GenPrivOdbc=No
 GenPrivTitle=No
 GenPrivOwner=No
-GenDbpkCrea=Yes
-GenDbpkDrop=Yes
+GenDbpkCrea=No
+GenDbpkDrop=No
 GenDbpkPerm=No
-GenWebsCrea=Yes
-GenWebsDrop=Yes
-GenWebsCmmt=Yes
+GenWebsCrea=No
+GenWebsDrop=No
+GenWebsCmmt=No
 GenMultPathName=
 GenMultSinglefile=Yes
 GenMultScriptName=synonym
@@ -302,8 +302,8 @@ GenMultScriptName9=
 GenMultOdbc=No
 GenMultTitle=No
 GenMultOwner=No
-GenDimnCrea=Yes
-GenDimnDrop=Yes
+GenDimnCrea=No
+GenDimnDrop=No
 TrgrPreserve=No
 TrgrIns=Yes
 TrgrUpd=Yes
@@ -354,7 +354,1168 @@ CubeScriptDeli=&quot;
 DfltDomnName=D_%.U:VALUE%
 DfltColnName=D_%.U:VALUE%
 DfltReuse=Yes
-DfltDrop=Yes</a:PackageOptionsText>
+DfltDrop=Yes
+
+[FolderOptions\CheckModel]
+
+[FolderOptions\CheckModel\Replication]
+
+[FolderOptions\CheckModel\Replication\PartialReplication]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package]
+
+[FolderOptions\CheckModel\Package\CircularReference]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\ConstraintName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\CnstMaxLen]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\CircularDependency]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\ShortcutUniqCode]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Table]
+
+[FolderOptions\CheckModel\Table\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table\UniqIndex]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table\MaxLen - NAME]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table\EmptyColl - COLNCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table\EmptyColl - INDXCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table\EmptyColl - KEYCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table\SerialColumnNumber]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table\EmptyCollYesYes]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table\TableIndexes]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table\Mapping]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table\MappingSFMap]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table\EmptyColl - PERMCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Table\MySQL_4_0_Table_Table_storage_type]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column]
+
+[FolderOptions\CheckModel\Table.Column\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column\DomainDivergence]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column\ColumnMandatory]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column\CheckPrecSupLng]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column\CheckUndefDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column\FkeyDttpDivergence]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column\FkeyCheckDivergence]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column\ColnSqncNoKey]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column\ColnSqncDttp]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column\SerialColumnFK]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Column\ColumnCompExpr]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Index]
+
+[FolderOptions\CheckModel\Table.Index\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Index\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Index\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Index\EmptyColl - CIDXCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Index\UndefIndexType]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Index\IndexColumnCount]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Index\IQIndxHNGUniq]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Index\CheckIncludeColl - Tabl]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Index\MySQL_4_0_Index_Primary_index]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Key]
+
+[FolderOptions\CheckModel\Table.Key\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Key\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Key\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Key\EmptyColl - COLNCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Key\CheckIncludeColl - Tabl]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Key\MultiKeySqnc]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Trigger]
+
+[FolderOptions\CheckModel\Table.Trigger\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Trigger\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table.Trigger\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Join Index]
+
+[FolderOptions\CheckModel\Join Index\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Join Index\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\View]
+
+[FolderOptions\CheckModel\View\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\View\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\View\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\View\EmptyColl - PERMCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\View.View Index]
+
+[FolderOptions\CheckModel\View.View Index\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\View.View Index\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\View.View Index\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\View.View Index\EmptyColl - CIDXCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\View.View Index\IndexColumnCount]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\View.View Index\CheckIncludeColl - Tabl]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Reference]
+
+[FolderOptions\CheckModel\Reference\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Reference\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Reference\Reflexive]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Reference\EmptyColl - RFJNCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Reference\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Reference\IncompleteJoin]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Reference\JoinOrder]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Reference\MySQL_4_0_Reference_Reference_name]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\View Reference]
+
+[FolderOptions\CheckModel\View Reference\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\View Reference\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\View Reference\EmptyColl - VRFJNCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domain]
+
+[FolderOptions\CheckModel\Domain\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domain\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domain\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domain\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domain\CheckPrecSupLng]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domain\CheckUndefDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Default]
+
+[FolderOptions\CheckModel\Default\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Default\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Default\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Default\DfltValeEmpty]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Default\DfltSameVale]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\User]
+
+[FolderOptions\CheckModel\User\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\User\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\User\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\User\CheckTextAttrEmpty]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Group]
+
+[FolderOptions\CheckModel\Group\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Group\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Group\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Group\EmptyColl - USERCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Group\CheckTextAttrEmpty]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Role]
+
+[FolderOptions\CheckModel\Role\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Role\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Role\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Role\EmptyColl - USERCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Procedure]
+
+[FolderOptions\CheckModel\Procedure\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Procedure\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Procedure\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Procedure\ProcBodyEmpty]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Procedure\EmptyColl - PERMCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Business Rule]
+
+[FolderOptions\CheckModel\Business Rule\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Business Rule\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Business Rule\EmptyColl - OBJCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Extended Object]
+
+[FolderOptions\CheckModel\Extended Object\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Extended Object\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Extended Link]
+
+[FolderOptions\CheckModel\Extended Link\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Extended Link\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\File]
+
+[FolderOptions\CheckModel\File\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\File\CheckPathExists]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Data Source]
+
+[FolderOptions\CheckModel\Data Source\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Data Source\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Data Source\EmptyColl - MODLSRC]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Data Source\DtscTargets]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Horizontal Partitioning]
+
+[FolderOptions\CheckModel\Horizontal Partitioning\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Horizontal Partitioning\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Horizontal Partitioning\EmptyColl - PARTCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Horizontal Partitioning\TargetTables]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Vertical Partitioning]
+
+[FolderOptions\CheckModel\Vertical Partitioning\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Vertical Partitioning\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Vertical Partitioning\EmptyColl - PARTCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Vertical Partitioning\TargetTables]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table Collapsing]
+
+[FolderOptions\CheckModel\Table Collapsing\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table Collapsing\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table Collapsing\EmptyColl - TargetTable]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Table Collapsing\TargetTables]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cube]
+
+[FolderOptions\CheckModel\Cube\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cube\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cube\EmptyColl - LinkDst]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cube\EmptyColl - Facts]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cube\CubeDupAssociation]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fact]
+
+[FolderOptions\CheckModel\Fact\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fact\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fact\EmptyColl - MEASCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fact\Mapping]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fact\MappingSFMap]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension]
+
+[FolderOptions\CheckModel\Dimension\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension\EmptyColl - DATTRCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension\EmptyColl - HIERCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension\DimnDupHierarchy]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension\DimnDefHierarchy]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension\Mapping]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension\MappingSFMap]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension\SerialColumnNumber]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association]
+
+[FolderOptions\CheckModel\Association\EmptyColl - Hierarchy]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension.Attribute]
+
+[FolderOptions\CheckModel\Dimension.Attribute\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension.Attribute\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fact.Measure]
+
+[FolderOptions\CheckModel\Fact.Measure\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fact.Measure\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension.Hierarchy]
+
+[FolderOptions\CheckModel\Dimension.Hierarchy\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension.Hierarchy\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Dimension.Hierarchy\EmptyColl - DATTRCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synonym]
+
+[FolderOptions\CheckModel\Synonym\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synonym\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synonym\MaxLen - NAME]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synonym\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synonym\EmptyColl - BASEOBJ]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Abstract Data Type]
+
+[FolderOptions\CheckModel\Abstract Data Type\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Abstract Data Type\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Abstract Data Type\AdtInstantiable]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Abstract Data Type\AdtAbstractUsed]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Abstract Data Type.Abstract Data Type Procedure]
+
+[FolderOptions\CheckModel\Abstract Data Type.Abstract Data Type Procedure\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Abstract Data Type.Abstract Data Type Procedure\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Abstract Data Type.Abstract Data Type Procedure\AdtProcUniqName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Abstract Data Type.Abstract Data Type Procedure\CheckTextAttrEmpty]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Abstract Data Type.Abstract Data Type Procedure\ReturnDataType]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package]
+
+[FolderOptions\CheckModel\Database Package\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package\MaxLen - NAME]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package\EmptyColl - PROCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package\EmptyColl - CURCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Database Package\EmptyColl - VARCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Database Package\EmptyColl - TYPCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Database Package\EmptyColl - EXCCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Database Package.Package Procedure]
+
+[FolderOptions\CheckModel\Database Package.Package Procedure\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Procedure\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Procedure\CheckTextAttrEmpty]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Procedure\EmptyColl - PARM]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Database Package.Package Procedure\ReturnDataType]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Cursor]
+
+[FolderOptions\CheckModel\Database Package.Package Cursor\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Cursor\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Cursor\CheckTextAttrEmpty]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Cursor\ReturnDataType]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Cursor\EmptyColl - PARM]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Database Package.Package Variable]
+
+[FolderOptions\CheckModel\Database Package.Package Variable\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Variable\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Variable\CheckUndefDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Type]
+
+[FolderOptions\CheckModel\Database Package.Package Type\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Type\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Type\CheckTextAttrEmpty]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Exception]
+
+[FolderOptions\CheckModel\Database Package.Package Exception\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database Package.Package Exception\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Tablespace]
+
+[FolderOptions\CheckModel\Tablespace\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Tablespace\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Tablespace\IsObjectUsed]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Storage]
+
+[FolderOptions\CheckModel\Storage\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Storage\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Storage\IsObjectUsed]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database]
+
+[FolderOptions\CheckModel\Database\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Database\IsObjectUsed]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Web Service]
+
+[FolderOptions\CheckModel\Web Service\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Web Service\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Web Service\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Web Service.Web Operation]
+
+[FolderOptions\CheckModel\Web Service.Web Operation\UniqueName]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Web Service.Web Operation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Web Service.Web Operation\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes</a:PackageOptionsText>
 <a:ModelOptionsText>[ModelOptions]
 
 [ModelOptions\Physical Objects]
@@ -1383,10 +2544,10 @@ CARD 0 Microsoft Sans Serif,8,N</a:FontList>
 <o:ReferenceSymbol Id="o9">
 <a:CreationDate>1244448437</a:CreationDate>
 <a:ModificationDate>1244448437</a:ModificationDate>
-<a:SourceTextOffset>(1, -1)</a:SourceTextOffset>
-<a:DestinationTextOffset>(-1, 1)</a:DestinationTextOffset>
-<a:Rect>((-18107,9900), (-3374,18225))</a:Rect>
-<a:ListOfPoints>((-18107,9900),(-3374,18225))</a:ListOfPoints>
+<a:SourceTextOffset>(-14, 27)</a:SourceTextOffset>
+<a:DestinationTextOffset>(14, -27)</a:DestinationTextOffset>
+<a:Rect>((-18752,9900), (-3079,18225))</a:Rect>
+<a:ListOfPoints>((-18752,9900),(-3079,18225))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16711680</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1405,10 +2566,10 @@ CARD 0 Microsoft Sans Serif,8,N</a:FontList>
 <o:ReferenceSymbol Id="o13">
 <a:CreationDate>1244448440</a:CreationDate>
 <a:ModificationDate>1244448440</a:ModificationDate>
-<a:SourceTextOffset>(3, -92)</a:SourceTextOffset>
-<a:DestinationTextOffset>(-3, 92)</a:DestinationTextOffset>
-<a:Rect>((-16349,7828), (8176,9900))</a:Rect>
-<a:ListOfPoints>((-16349,7950),(8176,9900))</a:ListOfPoints>
+<a:SourceTextOffset>(3, -88)</a:SourceTextOffset>
+<a:DestinationTextOffset>(-3, 88)</a:DestinationTextOffset>
+<a:Rect>((-17318,7792), (8176,9900))</a:Rect>
+<a:ListOfPoints>((-17318,7950),(8176,9900))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16711680</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1427,7 +2588,7 @@ CARD 0 Microsoft Sans Serif,8,N</a:FontList>
 <o:TableSymbol Id="o11">
 <a:CreationDate>1244445216</a:CreationDate>
 <a:ModificationDate>1244448131</a:ModificationDate>
-<a:Rect>((-10149,16516), (6097,22334))</a:Rect>
+<a:Rect>((-8373,16516), (4321,22334))</a:Rect>
 <a:LineColor>16711680</a:LineColor>
 <a:FillColor>12648384</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1446,7 +2607,7 @@ TableTriggers 0 Microsoft Sans Serif,8,N</a:FontList>
 <o:TableSymbol Id="o10">
 <a:CreationDate>1244445217</a:CreationDate>
 <a:ModificationDate>1244448440</a:ModificationDate>
-<a:Rect>((-31231,5154), (-11971,11946))</a:Rect>
+<a:Rect>((-29454,5154), (-13748,11946))</a:Rect>
 <a:LineColor>16711680</a:LineColor>
 <a:FillColor>12648384</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1523,9 +2684,11 @@ TableTriggers 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:Code>developer_id</a:Code>
 <a:CreationDate>1244445414</a:CreationDate>
 <a:Creator>User</a:Creator>
-<a:ModificationDate>1244445414</a:ModificationDate>
+<a:ModificationDate>1244451157</a:ModificationDate>
 <a:Modifier>User</a:Modifier>
-<a:DataType>mediumint(8) unsigned</a:DataType>
+<a:LowValue>1</a:LowValue>
+<a:HighValue>99999999</a:HighValue>
+<a:DataType>mediumint(8)</a:DataType>
 <a:Length>8</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
@@ -1596,9 +2759,9 @@ TableTriggers 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:Code>content_id</a:Code>
 <a:CreationDate>1244445578</a:CreationDate>
 <a:Creator>User</a:Creator>
-<a:ModificationDate>1244445578</a:ModificationDate>
+<a:ModificationDate>1244450777</a:ModificationDate>
 <a:Modifier>User</a:Modifier>
-<a:DataType>mediumint(9) unsigned</a:DataType>
+<a:DataType>mediumint(9)</a:DataType>
 <a:Length>9</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
@@ -1608,9 +2771,9 @@ TableTriggers 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:Code>developer_id</a:Code>
 <a:CreationDate>1244445637</a:CreationDate>
 <a:Creator>User</a:Creator>
-<a:ModificationDate>1244445637</a:ModificationDate>
+<a:ModificationDate>1244450777</a:ModificationDate>
 <a:Modifier>User</a:Modifier>
-<a:DataType>mediumint(8) unsigned</a:DataType>
+<a:DataType>mediumint(8)</a:DataType>
 <a:Length>8</a:Length>
 </o:Column>
 <o:Column Id="o26">

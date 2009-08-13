@@ -2631,8 +2631,8 @@
 <XPD:OBJ name="OwnedViews[6]" type="UMLClassView" guid="x+NuBy4PtkircVl4D8UeJgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">212</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">360</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">452</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">304</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">101</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">43</XPD:ATTR>
 <XPD:REF name="Model">aKTKpCVMpUOMQZ+eV7bZwAAA</XPD:REF>
@@ -2693,8 +2693,8 @@
 <XPD:OBJ name="OwnedViews[8]" type="UMLClassView" guid="yk1/SrkNqkKTxtT7ldQYhgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">212</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">452</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">284</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">344</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">112</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">134</XPD:ATTR>
 <XPD:REF name="Model">7seu4jGPh0GluMJzxMFsBgAA</XPD:REF>
@@ -2740,7 +2740,7 @@
 <XPD:REF name="Owner">CDfEU4PqmUCfmQnc7wO4+gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="auA62W1oFEato17h9eziFQAA">
-<XPD:ATTR name="Name" type="string">nickname</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">userkname</XPD:ATTR>
 <XPD:REF name="Owner">CDfEU4PqmUCfmQnc7wO4+gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="WKLLlXc7aEGn30wUET+EVwAA">
