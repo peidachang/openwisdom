@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<meta name="KEYWORDS" content="dhtmlxtree, dhtml tree, javascript tree, javascript, DHTML, tree, tree menu, checkbox tree, checkboxes, dynamical loading, xml, AJAX, API, cross-browser, checkbox, XHTML, compatible, treeview, navigation, menu, tree control, script, javascript navigation, web-site, dynamic, javascript tree menu, dhtml tree menu, dynamic tree, folder tree, item, node, asp, .net, jsp, cold fusion, custom tag, loading, widget, checkbox, drag, drop, drag and drop, component, html, scand">
+
+<meta name="DESCRIPTION" content="Cross-browser DHTML tree menu with XML support and powerful API. This JavaScript Tree Menu has built-in checkboxes and allows you to create advanced checkbox tree.">
+
+<title>Example</title>
+
+</head>
+<style>
+	body {font-size:12px}
+	.{font-family:arial;font-size:12px}
+	h1 {cursor:hand;font-size:16px;margin-left:10px;line-height:10px}
+	xmp {color:green;font-size:12px;margin:0px;font-family:courier;background-color:#e6e6fa;padding:2px}
+	.hdr{
+		background-color:lightgrey;
+		margin-bottom:10px;
+		padding-left:10px;
+	}
+</style>
+<body>
+	<div class="hdr">Example</div>
+	<link rel="STYLESHEET" type="text/css" href="/style/dhtmlXTree.css">
+	<script  src="/js/dhtmlxtree/dhtmlXCommon.js"></script>
+	<script  src="/js/dhtmlxtree/dhtmlXTree.js"></script>		
+	<script  src="/js/dhtmlxtree/dhtmlXTreeExtend.js"></script>
+	<script>
+	function tonclick(id){
+				alert("Item "+tree.getItemText(id)+" was selected");
+			};
+			
+			function tonopen(id,mode){
+				return confirm("Do you want to "+(mode>0?"close":"open")+" node "+tree.getItemText(id)+"?");
+			};
+			function toncheck(id,state){
+				alert("Item "+tree.getItemText(id)+" was " +((state)?"checked":"unchecked"));
+			};
+	</script>
+	<table>
+		<tr>
+			<td valign="top">
+				<div id="treeboxbox_tree" style="width:250; height:218;background-color:#f5f5f5;border :1px solid Silver;; overflow:auto;"></div>
+			</td>
+			<td  style="padding-left:25" valign="top">
+			
+			without checkbox
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				<div id="treeboxbox_tree2" style="width:250; height:218;background-color:#f5f5f5;border :1px solid Silver;; overflow:auto;"></div>
+			</td>
+			<td  style="padding-left:25" valign="top">
+			
+						Three state checkboxes<br>
+						<br>
+						
+			<a href="javascript:void(0);" onclick="tree2.setCheck(tree2.getSelectedItemId(),true);">Check item</a><br><br>
+			<a href="javascript:void(0);" onclick="tree2.setCheck(tree2.getSelectedItemId(),false);">UnCheck item</a><br><br>
+		
+			<a href="javascript:void(0);" onclick="alert(tree2.getAllChecked());">Get list of checked</a><br><br>
+			<a href="javascript:void(0);" onclick="alert(tree2.getAllPartiallyChecked());">getAllPartiallyChecked</a><br><br>
+			<a href="javascript:void(0);" onclick="alert(tree2.getAllCheckedBranches());">getAllCheckedBranches</a><br><br>
+			<a href="javascript:void(0);" onclick="alert(tree2.getAllCheckedLeaf());">getAllCheckedLeaf</a><br><br>
+			<a href="javascript:void(0);" onclick="alert(tree2.getAllUcCheckedLeaf());">getAllUcCheckedLeaf</a><br><br>
+			<a href="javascript:void(0);" onclick="tree2.openAllItems(0);">Expand all</a><br><br>
+			<a href="javascript:void(0);" onclick="tree2.closeAllItems(0);">Collapse all</a><br><br>
+			<a href="javascript:void(0);" onclick="tree2.closeItem(tree2.getSelectedItemId());">Close selected item</a><br><br>
+			<a href="javascript:void(0);" onclick="tree2.openItem(tree2.getSelectedItemId());">Open selected item</a><br><br>			
+			<a href="javascript:void(0);" onclick="tree2.closeAllItems(tree2.getSelectedItemId());">Collapse selected branch</a><br><br>
+			<a href="javascript:void(0);" onclick="tree2.openAllItems(tree2.getSelectedItemId());">Expand selected branch</a><br><br>
+			</td>
+		</tr>
+	</table>
+	<hr>	
+	<script>
+			tree=new dhtmlXTreeObject("treeboxbox_tree","100%","100%",0);
+			tree.setImagePath("images/");
+			tree.enableCheckBoxes(0);
+			tree.setOnClickHandler(tonclick);
+			tree.loadXML("tree3.xml");
+			
+			tree2=new dhtmlXTreeObject("treeboxbox_tree2","100%","100%",0);
+			tree2.setImagePath("images/");
+			tree2.enableCheckBoxes(1);
+			tree2.enableThreeStateCheckboxes(true);
+			tree2.setOnClickHandler(tonclick);
+			tree2.loadXML("tree3.xml");
+						
+	</script>
+<br><br>
+</body>
+</html>

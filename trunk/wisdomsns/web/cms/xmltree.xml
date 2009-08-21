@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+
+	<node id="2" parentid="0">
+		<name>CustomerManage</name>
+	</node>
+	<!--
+		<node id="10" parentid="1">
+		<name>Customer Service</name>
+		<link>custinfo.jsp</link><target>content</target>
+		</node>
+		
+		
+		
+		<node id="4" parentid="0">
+		<name>Sales</name>
+		
+		</node>
+		
+		<node id="40" parentid="4">
+		<name>Sale Products</name>
+		<link>products_toSalePage.action</link><target>content</target>
+		</node>
+		
+		
+		
+		
+		<node id="2" parentid="0">
+		<name>Products Manage</name>
+		
+		</node>
+		
+		<node id="20" parentid="2">
+		<name>Products Input</name>
+		<link>products_toAddPage.action</link><target>content</target>
+		</node>
+		
+		<node id="21" parentid="2">
+		<name>Products List</name>
+		<link>products_toProductsList.action</link><target>content</target>
+		</node>
+		
+		<node id="22" parentid="2">
+		<name>Supplier Manage</name>
+		<link>products_toSupplierPage.action</link><target>content</target>
+		</node>
+		
+		
+		<node id="5" parentid="0">
+		<name>Reports Manage</name>
+		</node>
+		
+		<node id="50" parentid="5">
+		<name>Shop Reports</name>
+		<link>shopreports.jsp</link><target>content</target>
+		</node>
+		
+		<node id="51" parentid="5">
+		<name>Service Reports</name>
+		<link>reports_toServiceReport.action</link><target>content</target>
+		</node>
+		
+		<node id="6" parentid="0">
+		<name>Employee Manage</name>
+		</node>
+		
+		<node id="60" parentid="6">
+		<name>List Employee</name>
+		<link>employee_toEmployeeManage.action</link><target>content</target>
+		</node>
+		<node id="61" parentid="6">
+		<name>Change Password</name>
+		<link>modifypasswd.jsp</link><target>content</target>
+		</node>
+		
+		<node id="3" parentid="0">
+		<name>System Manage</name>
+		</node>
+		
+		<node id="30" parentid="3">
+		<name>Logout</name>
+		<link>javascript:logout();</link>
+		</node>
+	-->
+</root>

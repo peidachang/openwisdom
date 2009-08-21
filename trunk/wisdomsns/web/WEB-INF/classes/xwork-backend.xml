@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xwork PUBLIC "-//OpenSymphony Group//XWork 1.0//EN" 
+		"http://www.opensymphony.com/xwork/xwork-1.0.dtd">
+<xwork>
+<package name="cms" extends="webwork-default"
+		namespace="/cms">
+		
+		<action name="index" class="contentControlAction" method="index">
+			<result name="success">/cms/main.jsp</result>
+		</action>
+		<action name="publishcontent" class="contentControlAction" method="publishContent">
+			<result name="success">/cms/publish.jsp</result>
+		</action>
+		<action name="applybrand" class="contentControlAction" method="applyBrand">
+			<result name="success">/cms/brand_apply.jsp</result>
+		</action>
+		
+		<action name="savecontent" class="contentManagementAction" method="saveContent">
+			<result name="success" type="redirect">listpenddingcontents.do</result>
+			<interceptor-ref name="defaultStack" />
+		</action>
+		
+		<action name="savebrand" class="brandManagementAction" method="saveBrand">
+			<result name="success" type="redirect">listbrands.do</result>
+			<interceptor-ref name="defaultStack" />
+		</action>
+		
+		<action name="listbrands" class="brandManagementAction" method="listBrands">
+			<result name="success">brand_list.jsp</result>
+			<interceptor-ref name="defaultStack" />
+		</action>
+		
+		<action name="listpenddingcontents" class="contentManagementAction" method="listPenddingContents">
+			<result name="success">/cms/contents.jsp</result>
+		</action>
+		
+		<action name="listactivedcontents" class="contentManagementAction" method="listActivedContents">
+			<result name="success">/cms/contents.jsp</result>
+		</action>
+		<action name="listdeletedcontents" class="contentManagementAction" method="listDeletedContents">
+			<result name="success">/cms/contents.jsp</result>
+		</action>
+		
+		<action name="listsystemservice" class="systemServiceAction" method="listSystemService">
+			<result name="success">/cms/service_list.jsp</result>
+		</action>
+		<action name="mysystemservices" class="systemServiceAction" method="listMySystemService">
+			<result name="success">/cms/mysystemservices.jsp</result>
+		</action>
+		<action name="opensystemservice" class="systemServiceAction" method="openSystemService">
+			<result name="success">/cms/service_list.jsp</result>
+		</action>
+		
+		<action name="listsaas" class="saasAction" method="listSaas">
+			<result name="success">/cms/saas_list.jsp</result>
+		</action>
+		<action name="savesaas" class="saasAction" method="saveSaas">
+			<result name="success">/cms/saas_list.jsp</result>
+		</action>
+		<action name="registratesaas" class="saasAction" method="registrateSaas">
+			<result name="success">/cms/saas_add.jsp</result>
+		</action>
+		
+		<action name="personal" class="personalAction">
+			<result name="home">/cms/main.jsp</result>
+			<result name="stores">/cms/personal/personal_info.jsp</result>
+			<result name="focus">/cms/personal/personal_info.jsp</result>
+			<result name="shares">/cms/personal/personal_info.jsp</result>
+			<result name="tasks">/cms/personal/personal_info.jsp</result>
+			<result name="groups">/cms/personal/personal_info.jsp</result>
+		</action>
+
+</package>
+</xwork>

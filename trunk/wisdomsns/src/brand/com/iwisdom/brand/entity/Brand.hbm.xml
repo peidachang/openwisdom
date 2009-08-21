@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.iwisdom.brand.entity.Brand" table="brand"
+		lazy="true">
+		<id name="brandId" column="brand_id">
+			<generator class="native" />
+		</id>
+		<property name="brandName" type="java.lang.String"
+			column="brand_name" />
+		<property name="createDate" type="java.sql.Timestamp"
+			column="createdate" />
+		<property name="lastModify" type="java.sql.Timestamp"
+			column="lastmodify" />
+		<property name="expireDate" type="java.sql.Timestamp"
+			column="expiredate" />
+		<property name="brandArea" type="java.lang.String"
+			column="brand_area" />
+		<property name="brandLogos" type="java.lang.String"
+			column="brand_logos" />
+		<property name="brandSummary" type="java.lang.String"
+			column="brand_summary" />
+		<property name="status" type="java.lang.Integer"
+			column="status" />
+			
+		<many-to-one name="brandMainType" column="brand_maintype_id" not-null="true"/>
+		<many-to-one name="brandCategory" column="brand_category_id"/>
+	</class>
+</hibernate-mapping>
+

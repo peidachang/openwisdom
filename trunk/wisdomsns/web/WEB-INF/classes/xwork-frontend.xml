@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xwork PUBLIC "-//OpenSymphony Group//XWork 1.0//EN" 
+		"http://www.opensymphony.com/xwork/xwork-1.0.dtd">
+<xwork>
+<package name="brand" extends="webwork-default"
+		namespace="/brand">
+		<action name="brandsummary" class="brandAction" method="brandSummary">
+			<result name="success">/brands/brand_summary.jsp</result>
+		</action>
+		
+		<action name="branddetail" class="brandAction" method="brandDetail">
+			<result name="success">/brands/brand_detail.jsp</result>
+		</action>
+</package>
+
+<package name="mobile" extends="webwork-default"
+		namespace="/mobile">
+		<action name="mobilenews" class="frontendContentAction" method="showAllNews">
+			<result name="success">/mobilecontents/mpapers.jsp</result>
+		</action>
+</package>
+
+<package name="share" extends="webwork-default"
+		namespace="/share">
+		<action name="mobilenews" class="frontendContentAction" method="showAllNews">
+			<result name="success">/mobilecontents/mpapers.jsp</result>
+		</action>
+</package>
+</xwork>

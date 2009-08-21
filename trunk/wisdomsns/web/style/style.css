@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+
+/*------------------------------------------------main--------------------*/
+#vote_index {
+	font-size: 12px;
+	font-family: 宋体;
+}
+
+#vote_index ul {
+	text-decorator: none;
+	list-style-type: decimal;
+	margin-top: 0px;
+}
+
+#vote_index ul li {
+	padding: 5px 1px 1px 1px;
+}
+
+#vote_index ul li a {
+	text-decoration: none;
+}
+
+#voteList {
+	width: 398px;
+}
+
+#title {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#topic {
+	margin-top: 5px;
+	padding: 10px 2px 3px 8px
+}
+
+table {
+	font-size: 12px;
+}
+
+.td1 {
+	text-align: right;
+}
+
+#footer ul li {
+	list-style: none;
+	float: left;
+	padding: 3px 3px 3px 3px;
+}
+
+#topLogin ul {
+	padding-top: 3px;
+}
+#footer {
+	width: 430px;
+}
+
+#topLogin {
+	
+}
+#topLogin span {
+	padding-top: 5px;
+}
+#topLogin ul li {
+	float: left;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	
+}
+#header{
+margin-top:0px;
+}
+

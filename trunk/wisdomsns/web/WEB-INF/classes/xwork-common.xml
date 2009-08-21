@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xwork PUBLIC "-//OpenSymphony Group//XWork 1.0//EN" 
+		"http://www.opensymphony.com/xwork/xwork-1.0.dtd">
+<xwork>
+	<package name="default" extends="webwork-default" namespace="/">
+		<action name="index" class="menu" method="index">
+			<result name="success">/home.jsp</result>
+		</action>
+		<action name="service" class="menu" method="service">
+			<result name="success">/service/index.jsp</result>
+		</action>
+		<action name="vote" class="menu" method="vote">
+			<interceptor-ref name="basicStack"></interceptor-ref>
+			<result name="success">/vote/index.jsp</result>
+		</action>
+		<action name="mobile" class="menu" method="mobilecontent">
+			<result name="success">/mobilecontents/index.jsp</result>
+		</action>
+
+		<action name="interactive" class="menu" method="interactive">
+			<result name="success">/interactive/index.jsp</result>
+		</action>
+		<action name="share" class="menu" method="share">
+			<result name="success">/share/index.jsp</result>
+		</action>
+		
+		<action name="brand" class="menu" method="brandCenter">
+			<result name="success">/brands/index.jsp</result>
+		</action>
+
+		<action name="registration" class="userAction"
+			method="registration">
+			<result name="success">/user/registration.jsp</result>
+		</action>
+
+		<action name="saveuser" class="userAction" method="saveUser">
+			<result name="success" type="redirect">/cms/index.do</result>
+		</action>
+
+		<action name="login" class="userAction" method="login">
+			<result name="success" type="redirect">
+				/cms/index.do
+			</result>
+			<result name="fail" type="redirect">/index.do</result>
+			<result name="input" type="redirect">/index.do</result>
+		</action>
+
+		<action name="logout" class="userAction" method="logout">
+			<result name="success" type="redirect">/index.do</result>
+		</action>
+		
+		
+
+	</package>
+
+	<package name="account" extends="webwork-default"
+		namespace="/account">
+		<action name="accountinfo" class="accountAction"
+			method="accountInfo">
+			<result name="success">/account/accountinfo.jsp</result>
+		</action>
+		<action name="accountsets" class="accountAction"
+			method="accountSets">
+			<result name="success">/account/accountsets.jsp</result>
+		</action>
+		<action name="servicelist" class="accountAction"
+			method="listServices">
+			<result name="success">/account/servicelist.jsp</result>
+		</action>
+		<action name="servicesets" class="accountAction"
+			method="servicesSets">
+			<result name="success">/account/servicesets.jsp</result>
+		</action>
+		<action name="index" class="accountAction" method="index">
+			<result name="success">/account/index.jsp</result>
+		</action>
+	</package>
+	
+	<package name="admin" extends="webwork-default"
+		namespace="/admin">
+		<action name="admin" class="adminAction" method="index">
+			<result name="index">/admin/main.jsp</result>
+			<result name="menusets">/admin/menusets.jsp</result>
+		</action>
+	</package>
+	
+</xwork>
+
