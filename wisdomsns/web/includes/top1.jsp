@@ -8,8 +8,8 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <title>i-wisdom</title>
 
-<link href="../style/menu.css" rel="stylesheet" type="text/css" />
-<link href="../style/style.css" rel="stylesheet" type="text/css" />
+<link href="${pageContext.request.contextPath}/style/menu.css" rel="stylesheet" type="text/css" />
+<link href="${pageContext.request.contextPath}/style/style.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!--
 .style1 {
@@ -118,18 +118,18 @@ document.getElementById("<%=uri_sub%>").className = "current";
 <div id="dolphinnav">
 <ul>
 	<li><a id="tab_index"
-		href="/index.do"> <span><ww:text
+		href="${pageContext.request.contextPath}/index.do"> <span><ww:text
 		name='page.top.menu.item1' /></span></a></li>
 
-	<li><a id="tab_service" href="/service.do"><span><ww:text
+	<li><a id="tab_service" href="${pageContext.request.contextPath}/service.do"><span><ww:text
 		name='page.top.menu.item3' /></span></a></li>
 	<li><a id="tab_mobile"
-		href="/mobile.do"><span><ww:text
+		href="${pageContext.request.contextPath}/mobile.do"><span><ww:text
 		name='page.top.menu.item4' /></span></a></li>
-	<li><a id="tab_brand" href="/brand.do"><span><ww:text
+	<li><a id="tab_brand" href="${pageContext.request.contextPath}/brand.do"><span><ww:text
 		name='page.top.menu.item6' /></span></a></li>
 	<li><a id="tab_share"
-		href="/share.do"><span><ww:text
+		href="${pageContext.request.contextPath}/share.do"><span><ww:text
 		name='page.top.menu.item8' /></span></a></li>
 	<%-- 
 	<li><a id="tab_vote"
