@@ -204,7 +204,20 @@ public class UtilServiceImpl implements UtilService{
 	public Map<Integer,Element> createNode(Map<Integer,Element> map,Menu menu,Document doc,Element root){
 		int pid = menu.getPid();
 		System.out.println("pid = "+pid +",id = "+menu.getMenuId()+",map.size = "+map.size()+",map.value = "+map.get(new Integer(menu.getMenuId())));
-		if(map.containsKey(new Integer(pid))){
+		if(pid==0){
+			if(!map.containsKey(new Integer(menu.getMenuId()))){
+			Element node = doc.createElement("item");
+			node.setAttribute("id", String.valueOf(menu.getMenuId()));
+			node.setAttribute("pid", "0");
+			node.setAttribute("name", menu.getMenuName());
+			root.appendChild(node);
+			map.put(new Integer(menu.getMenuId()), node);
+			}
+		}
+		if(!map.containsKey(new Integer(menu.getMenuId()))){
+				map = createNode(map,menuDao.getMenuById(pid),doc,root);
+			}
+		if(!map.containsKey(new Integer(menu.getMenuId()))){
 				Element node = doc.createElement("item");
 				node.setAttribute("id", String.valueOf(menu.getMenuId()));
 				node.setAttribute("pid", String.valueOf(pid));
@@ -213,25 +226,7 @@ public class UtilServiceImpl implements UtilService{
 				Element pnode = (Element)map.get(new Integer(pid));
 				pnode.appendChild(node);
 				map.put(new Integer(menu.getMenuId()), node);
-			}else{
-				if(pid==0){
-					Element node = doc.createElement("item");
-					node.setAttribute("id", String.valueOf(menu.getMenuId()));
-					node.setAttribute("pid", "0");
-					node.setAttribute("name", menu.getMenuName());
-					root.appendChild(node);
-					System.out.println("key = "+menu.getMenuId()+",value = "+node);
-					map.put(new Integer(pid), node);
-					createNode(map,menu,doc,root);
-				}else{
-					map = createNode(map,menuDao.getMenuById(pid),doc,root);
-					
-					//createNode(map,menu,doc,root);
-					
-				}
-				
-				
-			}
+		}
 		return map;
 		
 	}
