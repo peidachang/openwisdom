@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tree id="0">
+	<item text="个人选项" id="books">
+		
+		<item text="Science" id="fantasy">
+			<item text="Audrey Niffenegger" id="af"></item>
+			<item text="Philip Roth" id="pr"></item>
+		</item>
+		<item text="Sport" id="sport">
+			<item text="Bill Reynolds"></item>
+		</item>
+		
+	</item>
+	<item text="Magazines" id="magazines" im0="tombs_mag.gif" im1="tombs_mag.gif" im2="tombs_mag.gif">
+		<item text="Sport" id="mag_sp" im0="magazines_open.gif" im1="magazines_open.gif" im2="magazines_close.gif"></item>
+	</item>
+</tree> 

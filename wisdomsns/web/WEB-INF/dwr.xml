@@ -1,0 +1,36 @@
+<!DOCTYPE dwr PUBLIC 
+"-//GetAhead Limited//DTD Direct Web Remoting 1.0//EN" 
+"http://www.getahead.ltd.uk/dwr/dwr10.dtd">
+
+<dwr>
+	<allow>
+
+		<create creator="spring" javascript="utilinvoke"
+			scope="session">
+			<param name="beanName" value="userAction" />
+			<include method="getProvinceCities" />
+			<include method="getCityDistricts" />
+		</create>
+		
+		<create creator="spring" javascript="contentService"
+			scope="session">
+			<param name="beanName" value="contentManagementService" />
+			<include method="getContentSubTypes" />
+		</create>
+		
+		<convert match="com.iwisdom.cms.entity.ContentSubType" converter="bean">
+			<param name="include" value="contentSubTypeId,labels">
+			</param>
+		</convert>
+
+	</allow>
+
+
+
+	<signatures>
+		<![CDATA[
+			import java.util.List;
+			import java.util.Map;
+		]]>
+	</signatures>
+</dwr>

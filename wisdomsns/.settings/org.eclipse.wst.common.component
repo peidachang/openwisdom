@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+	<wb-module deploy-name="wisdomsns">
+		<wb-resource deploy-path="/" source-path="/web"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/core"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/app"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/cms"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/vote"/>
+<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/brand"/>
+<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/share"/>
+<wb-resource deploy-path="/WEB-INF/classes" source-path="/src.service"/>
+<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/servicebus"/>
+		<property name="context-root"/>
+		<property name="java-output-path" value="build/classes"/>
+	</wb-module>
+</project-modules>

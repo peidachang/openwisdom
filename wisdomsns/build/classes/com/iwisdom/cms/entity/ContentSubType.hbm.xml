@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.iwisdom.cms.entity.ContentSubType" table="content_subtype"
+		lazy="true">
+		<id name="contentSubTypeId" column="content_subtype_id">
+			<generator class="native" />
+		</id>
+		<property name="ContentMainTypeId" type="java.lang.Integer"
+			column="content_maintype_id" />
+		<property name="labels" type="java.lang.String"
+			column="labels" />
+		<property name="createDate" type="java.sql.Timestamp"
+			column="createdate" />
+		<property name="lastModify" type="java.sql.Timestamp"
+			column="lastmodify" />
+		<property name="version" type="java.lang.Integer"
+			column="version" />
+	</class>
+</hibernate-mapping>

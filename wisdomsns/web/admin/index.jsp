@@ -1,0 +1,1 @@
+<%response.sendRedirect("/admin/admin!index.do");%>

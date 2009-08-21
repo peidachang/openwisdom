@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+<!--第一个功能模块-->
+<node id="0" parentid="-1">
+<name>后台管理系统</name>
+<url></url>
+</node>
+
+<node id="1" parentid="0">
+<name>系统用户管理</name>
+<url></url>
+</node>
+<node id="2" parentid="0">
+<name>注册用户管理</name>
+<url></url>
+</node>
+<node id="3" parentid="0">
+<name>系统权限管理</name>
+<url></url>
+</node>
+<node id="4" parentid="0">
+<name>菜单管理</name>
+<url></url>
+</node>
+<node id="5" parentid="0">
+<name>系统业务管理</name>
+<url></url>
+</node>
+<node id="6" parentid="0">
+<name>第三方服务管理</name>
+<url></url>
+</node>
+<node id="7" parentid="0">
+<name>数据统计</name>
+<url></url>
+</node>
+<node id="8" parentid="0">
+<name>报表管理</name>
+<url></url>
+</node>
+<node id="9" parentid="0">
+<name>系统设置</name>
+<url></url>
+</node>
+
+
+<node id="10" parentid="1">
+<name>用户信息维护</name>
+<url>test.jsp</url>
+</node>
+
+<node id="40" parentid="4">
+<name>群组菜单管理</name>
+<url>admin!menuSets.do</url>
+</node>
+<node id="41" parentid="4">
+<name>系统菜单管理</name>
+<url></url>
+</node>
+<node id="411" parentid="41">
+<name>系统菜单列表</name>
+<url>admin!menuSets.do</url>
+</node>
+
+</root>

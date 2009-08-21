@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<decorators defaultdir="/decorators">
+	<decorator name="layout" page="layout.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+	<decorator name="personal" page="personal_layout.jsp">
+		<pattern>/account/*</pattern>
+	</decorator>
+	<decorator name="cms" page="cms_layout.jsp">
+		<pattern>/cms/*</pattern>
+		<pattern>/cms/personal/*</pattern>
+	</decorator>
+	<decorator name="admin" page="admin_layout.jsp">
+		<pattern>/admin/*</pattern>
+	</decorator>
+	<excludes>
+		<pattern>/includes/*</pattern>
+	</excludes>
+</decorators>

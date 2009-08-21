@@ -1,0 +1,31 @@
+<html>  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+<title>直接在页面上显示日期控件</title>  
+<link rel="stylesheet" type="text/css" href="/js/ext-2.0/resources/css/ext-all.css" />  
+<link rel="stylesheet" type="text/css" href="/js/ext-2.0/examples/examples.css" />  
+<script type="text/javascript" src="/js/ext-2.0/adapter/ext/ext-base.js"></script>  
+<script type="text/javascript" src="/js/ext-2.0/ext-all.js"></script>  
+<script type="text/javascript">  
+Ext.onReady(function(){  
+    var md = new Ext.form.DateField({  
+      name: 'testDate',  
+      width: 110,  
+      format: 'Y-m-d',  
+      emptyText: '请选择日期 ...'   
+     });  
+       
+     md.render('divDate');   
+});  
+</script>  
+</head>  
+<body>  
+<h1>直接在页面上显示日期控件</h1>  
+   
+<p>这个例子告诉我们如何在页面上绑定日期控件.</p>  
+  
+<br />  
+   
+<div id='divDate'></div>  
+</body>  
+</html>
